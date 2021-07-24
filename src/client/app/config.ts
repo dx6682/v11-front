@@ -6,7 +6,7 @@ declare const _ENV_: string;
 
 const address = new URL(location.href);
 
-export const instanceHost = 'mineskey.ml';
+export const instanceHost = 'umaskey.net';
 
 export const host = address.host;
 export const hostname = address.hostname;
