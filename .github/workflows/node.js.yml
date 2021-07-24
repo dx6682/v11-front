@@ -35,7 +35,7 @@ jobs:
         git config --global user.name "${GITHUB_ACTOR}"
         echo "$SECRET_KEY" > ~/key
         chmod 600 ~/key
-        git clone git@github.com:minetaro12/mineskey-v11.git web
+        git clone git@github.com:dx6682/umaskey-v11.git web
         rm -rf .git
         cp -r ./built/client/* ./web/
         cd ./web
